@@ -5,26 +5,31 @@
 Just a simple mortgage tool.
 """
 import pandas as pd
+#import datetime
+
 #find expected mortgage payment
 #Create amortization calculator
 #display the total cost of a loan (15 and 30 year?)
 #Refinance option (Current amount, current term and rate, new term and rate, new assesment, break even)
 #Graph of paydown (interest, principal, equity)
 #snowball (extra money + target date)
-###Give it a UI
+#Allow it to compare 30 to 15 year and give summary savings
+#Export results to 
 
+####Demo figures dont change
 apy = 3.14
 term = 30
-
+###End of Demo
 
 class mortgageSimple:
     """Because I need to make everything a class. This will help simplify things"""
 
 
 
-    def __init__(self,home_value,loan_amount):
+    def __init__(self,home_value,loan_amount,home_name):
         self.home_value = home_value
         self.loan_amount = loan_amount
+        self.home_name = home_name
 
 
 
@@ -56,4 +61,8 @@ class mortgageSimple:
         pass
 
     def snowball_target():
+        pass
+
+
+    def build_report():
         pass
