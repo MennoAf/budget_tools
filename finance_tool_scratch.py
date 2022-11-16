@@ -3,10 +3,11 @@
 @Description: Scratch Pad to test concepts in Python for creating a financial tool
 '''
 
+import time
+from datetime import datetime
+
 import pandas as pd
 import yfinance as yf
-from datetime import datetime
-import time
 
 goal_key = {
     '401k' : 'Retirement',
